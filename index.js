@@ -25,7 +25,7 @@ const musicData = async () => {
   const options1 = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "179aa4b3e9msh25a7461566c2560p1cae82jsnc4f8cf204022",
+      "X-RapidAPI-Key": `179aa4b3e9msh25a7461566c2560p1cae82jsnc4f8cf204022`,
       "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
     },
   };
@@ -36,7 +36,7 @@ const musicData = async () => {
   const options2 = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "751d488d52msh4e7bf83c0688c4bp198c80jsn9f7656191a1d",
+      "X-RapidAPI-Key": `751d488d52msh4e7bf83c0688c4bp198c80jsn9f7656191a1d`,
       "X-RapidAPI-Host": "genius-song-lyrics1.p.rapidapi.com",
     },
   };
